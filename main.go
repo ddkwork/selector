@@ -9,6 +9,6 @@ import (
 
 func main() {
 	app.Run("selector", func(w *unison.Window) {
-		selector.New().Layout(w.Content())
+		selector.Nee().Layout(w.Content())
 	})
 }
